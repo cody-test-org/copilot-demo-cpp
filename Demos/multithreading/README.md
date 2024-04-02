@@ -28,10 +28,15 @@ Your Visual Studio Code should look like this. We are now ready to write some co
 
 ### Step 2: Ask GitHub Copilot Chat for assistance
 
-In the GitHub Copilot Chat text box, provide the following prompt to ilicit the help from GitHub Copilot ```Can you create a program in C++ that calculate the sum of elements in an array using multiple threads```. Copilot Chat will provide the code for you to text in the chat. 
+In the GitHub Copilot Chat text box, provide the following prompt to get help from GitHub Copilot Chat.
 
+```txt
+Can you create a program in C++ that calculate the sum of elements in an array using multiple threads
+```
 
-You have 2 options of getting the code into your project. 
+Copilot Chat will provide the code for you to text in the chat.
+
+You have 2 options of getting the code into your project.
 
 #### Option 1
 
@@ -43,7 +48,7 @@ For this example, if we chose Option 1 we would need to create 3 files, calculat
 
 #### Option 2
 
-If you select Option 2, click into the code that was generated and hover over the top right corner once more. This time press the middle button labaled ```Insert at cursor```. This pastes the generated code into whatever file was open in your project at your mouse's location.
+If you select Option 2, click into the code that was generated and hover over the top right corner once more. This time press the middle button labaled `Insert at cursor`. This pastes the generated code into whatever file was open in your project at your mouse's location.
 
 ![Insert](/Demos/multithreading/images/insert.png)
 
@@ -121,7 +126,13 @@ int main() {
 
 ### Step 3: Run the program
 
-Now that you have the code in your project, we can ask GitHub Copilot Chat to run the program for us. Simply type ```How can I compile and run this program ?``` and GitHub Copilot Chat will provide the output of the program.
+Now that you have the code in your project, we can ask GitHub Copilot Chat to run the program for us. Simply type 
+
+```txt
+How can I compile and run this program ?
+```
+
+and GitHub Copilot Chat will provide the output of the program.
 
 <details><summary>Cheat Sheet</summary>
 <p>
@@ -134,7 +145,13 @@ g++ -std=c++11 -pthread multithread.cpp -o multithread
 </p>
 </details>
 
-If you get any compiling errors, we can ask GitHub Copilot Chat for help. Simply type ```Can you help me with the compiling errors? <paste errors>``` and GitHub Copilot Chat will provide the necessary information to fix the errors.
+If you get any compiling errors, we can ask GitHub Copilot Chat for help. Simply type 
+
+```txt
+Can you help me with the compiling errors? <paste errors>
+```
+
+ and GitHub Copilot will provide the necessary information to fix the errors.
 
 ### Step 4: Further Iterations
 
@@ -142,9 +159,16 @@ Now that you have a working version of the program. Feel free to iterate on it w
 
 In case the array provided is small
 
-> can you modify it so that the array is a very large number ?
+```txt
+can you modify it so that the array is a very large number ?
+```
 
 Add your own flavor
 
->Can you add a "racing" theme to it, so that we calculate which thread finished first second ... etc ?
-> When printing the results, can you assign a random team name to each thread?
+```txt
+Can you add a "racing" theme to it, so that we calculate which thread finished first second ... etc ?
+```
+
+```txt
+When printing the results, can you assign a random team name to each thread?
+```
