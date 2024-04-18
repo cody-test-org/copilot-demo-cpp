@@ -1,6 +1,6 @@
 # Getting Started - C++ Multithreading Demo - Visual Studio Code
 
-Welcome to GitHub Copilot! What will be the best way to see the power of Copilot? Let's build a simple C++ multithreading demo that demonstrates how to create and manage threads in C++ using Visual Studio Code with Copilot's help.
+Welcome to GitHub Copilot!! What will be the best way to see the power of Copilot? Let's build a simple C++ multithreading demo that demonstrates how to create and manage threads in C++ using Visual Studio Code with Copilot's help.
 
 Although you can use any supported editor for Copilot like Visual Studio Code, Visual Studio IDE, NeoVim, and IntelliJ, we will use Visual Studio Code for this demo.
 
